@@ -2,11 +2,15 @@
 
 go through logs history 
 
-```git log author=<USERNAME>```
+```shell
+git log author=<USERNAME>
+```
 
 go to specific commit (by commit it). This can be executed multiple times
 
-```git reset --hard <COMMIT ID>```
+```shell
+git reset --hard <COMMIT ID>
+```
 
 You can go back x commits in the past and come back to later commits (time travel)
 
@@ -14,35 +18,57 @@ You can go back x commits in the past and come back to later commits (time trave
 
 move changes to new a branch
 
-```git checkout -b <NAME-OF-THE-BRANCH>```
+```shell
+git checkout -b <NAME-OF-THE-BRANCH>
+```
 
 drop all changes before commiting
 
-```git checkout .```
+```shell
+git checkout .
+```
 
 undo *git add <FILE-PATH>*
 
-```git reset <FILE-PATH>```
+```shell
+git reset <FILE-PATH>
+```
 
 undo *git add .*
 
-```git reset```
+```shell
+git reset
+```
 
 #
+  
+undo git commit -m & git add 
+  
+```shell 
+  git reset HEAD~1
+```
 
 undo the last commit (locally) but keep your changes (git commit -m "...")
 
-```git reset --soft HEAD^```
+```shell 
+git reset --soft HEAD^
+```
 
 drop changes and reset the branch to the previous commit
 
-```$ git reset --hard HEAD^```
+```shell
+git reset --hard HEAD^
+```
   
 drop changes and undo x commits
 
-```$ git reset --hard HEAD~x```
+```shell
+git reset --hard HEAD~x
+```
 
 undo x commits
 
-```git reset --soft HEAD~x```
+```shell
+git reset --soft HEAD~x
+```
  
