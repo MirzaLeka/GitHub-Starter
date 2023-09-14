@@ -71,4 +71,10 @@ undo x commits
 ```shell
 git reset --soft HEAD~x
 ```
+
+Undo Git Merge
+
+```shell
+git merge --abort
+```
  
