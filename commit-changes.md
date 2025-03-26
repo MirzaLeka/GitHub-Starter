@@ -3,24 +3,42 @@
 
 Add single item
 
-``` git add filename.extension ```
+``` bash
+git add filename.extension # e.g. git add app.js
+```
 
 Add all files
 
-``` git add . ```
+```bash
+git add .
+```
+
+Tag
+
+```bash
+git tag <tagname> # e.g. git tag v2.1.0
+```
 
 Commit
 
-``` git commit -m "My commit message" ```
+```bash
+git commit -m "My commit message"
+```
 
 Commit and Add together 
 
-``` git commit -am "Commit message" ```
+```bash
+git commit -am "Commit message"
+```
 
 Pull code
 
-``` git pull ```
+```bash
+git pull
+```
 
 Push code
 
-``` git push ```
+```bash
+git push
+```
